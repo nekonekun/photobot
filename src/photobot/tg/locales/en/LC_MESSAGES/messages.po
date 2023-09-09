@@ -1,0 +1,61 @@
+# English translations for PROJECT.
+# Copyright (C) 2023 ORGANIZATION
+# This file is distributed under the same license as the PROJECT project.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2023-09-10 02:57+0400\n"
+"PO-Revision-Date: 2023-09-01 10:49+0400\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: en\n"
+"Language-Team: en <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: src/photobot/tg/photo/handlers.py:34
+msgid "photo_accepted"
+msgstr "Photo added. Now you can edit metadata"
+
+#: src/photobot/tg/photo/handlers.py:51
+msgid "photo_location_set"
+msgstr "Location has been set"
+
+#: src/photobot/tg/photo/handlers.py:74
+#, fuzzy
+msgid "photo_text_updated"
+msgstr "Photo added. Now you can enter description (with hashtags) "
+       "or send me location"
+
+#: src/photobot/tg/photo/keyboards.py:15
+msgid "kb_location_request"
+msgstr "📍 Send current geolocation"
+
+#: src/photobot/tg/user/handlers.py:34
+msgid "greeting_message_alt"
+msgstr ""
+"Hello, stranger. Thank you for giving little photo-geo bot a chance. I "
+"hope I will not disappoint you. Feel free to write any suggestions "
+"directly to @nekone"
+
+#: src/photobot/tg/user/handlers.py:38
+msgid "option_menu_message"
+msgstr "What you want to setup?"
+
+#: src/photobot/tg/user/handlers.py:43
+msgid "option_language_ask"
+msgstr "What language do you want me to speak?"
+
+#: src/photobot/tg/user/handlers.py:65
+msgid "option_language_set"
+msgstr "New language set: English"
+
+#: src/photobot/tg/user/keyboards.py:14
+msgid "kb_options_language"
+msgstr "Language"
+

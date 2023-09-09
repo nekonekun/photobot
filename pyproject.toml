@@ -1,0 +1,40 @@
+[tool.poetry]
+name = "photobot"
+version = "0.1.0"
+description = "Small photo-geo pet project"
+authors = ["nekone <nekonekun@gmail.com>"]
+readme = "README.md"
+packages = [{include = "photobot", from = "src"}]
+
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = {extras = ["psycopg3"], version = "^2.0.20"}
+psycopg = {extras = ["binary"], version = "^3.1.10"}
+alembic = "^1.11.3"
+geoalchemy2 = {extras = ["shapely"], version = "^0.14.1"}
+asyncpg = "^0.28.0"
+pydantic-settings = "^2.0.3"
+babel = "^2.12.1"
+redis = "^5.0.0"
+aiogram = "3.0.0"
+
+
+[tool.poetry.group.dev.dependencies]
+blue = "^0.9.1"
+ruff = "^0.0.286"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+photobot = "photobot.entrypoint:run"
+
+[tool.ruff]
+select = ["ALL"]
+ignore = ["Q", "ANN", "FA", "D", "INP001", "A002", "A003"]
+line-length = 80
+
+[tool.ruff.pydocstyle]
+convention = "google"
