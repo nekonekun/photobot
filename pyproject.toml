@@ -29,7 +29,7 @@ requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-photobot = "photobot.entrypoint:run"
+photobot = "photobot.tg.entrypoint:run"
 
 [tool.ruff]
 select = ["ALL"]
